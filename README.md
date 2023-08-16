@@ -1,6 +1,17 @@
 # Flight Club
 
-A program that reads a Google Sheet with flight destinations and notifies users via email or SMS when there are cheaper flights. It's based on the Flight Club capstone project from the [100 Days of Code - The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) course on Udemy.
+A program that reads a Google Sheet with flight destinations and notifies users via email or SMS when there are cheap flights. It's based on the Flight Club capstone project from the [100 Days of Code - The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) course on Udemy.
+
+- [Flight Club](#flight-club)
+  - [Requirements](#requirements)
+    - [Packages](#packages)
+    - [APIs \& Services](#apis--services)
+    - [Environment Variables](#environment-variables)
+    - [Google Sheet](#google-sheet)
+  - [Usage](#usage)
+    - [Adding Users](#adding-users)
+  - [To Do](#to-do)
+  - [License](#license)
 
 ## Requirements
 
