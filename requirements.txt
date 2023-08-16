@@ -1,0 +1,3 @@
+python-dotenv~=1.0
+Requests~=2.31
+twilio~=8.5
