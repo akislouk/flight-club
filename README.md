@@ -107,7 +107,9 @@ It's probably better to add users manually to the Google Sheet, though.
 
 - Add some methods to `DataManager` so that it can use local JSON files.
 - Add some methods to `DataManager` so that it can use local CSV files.
-- Make it possible to search for multiple destinations at once, instead of doing it one by one.
+- Search for multiple destinations at once, instead of doing it one by one.
+- Configure the number of passengers.
+- Configure the number of bags.
 
 ## License
 
