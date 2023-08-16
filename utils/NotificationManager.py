@@ -63,5 +63,5 @@ class NotificationManager:
         if flight.via_city:
             msg += f"\nThe flight has 1 stop at {flight.via_city}."
         if user:
-            msg = f"From: Flight Club <{self._email}>\r\nTo: {user['firstName']} <{user['email']}> \r\nSubject:Cheap Tickets Detected!\r\n\r\n{msg}"
+            msg = f"From: Flight Club <{self._email}>\r\nTo: {user['firstName']} <{user['email']}> \r\nSubject:Cheap Tickets Detected!\r\n\r\n{msg}\n\nBook here: {flight.link}"
         return msg.encode("utf8")

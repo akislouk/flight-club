@@ -48,6 +48,7 @@ for row in dm.data:
     row["price"] = flight.price
     row["departure"] = flight.out_date.strftime("%d/%m/%Y")
     row["return"] = flight.return_date.strftime("%d/%m/%Y")
+    row["link"] = flight.link
 
     # Set the lowest price to the current price if it's not set yet
     # or if the current price is lower

@@ -9,6 +9,7 @@ class FlightData:
     def __init__(self, data: dict[str,], stopover: bool = False):
         """Initializes a `FlightData` object with all the relevant information from the given data of the Tequila API response."""
         self.price: int = data["price"]
+        self.link: str | None = data.get("deep_link")
         self.out_date = datetime.fromisoformat(data["route"][0]["local_departure"])
         self.return_date = datetime.fromisoformat(data["route"][-1]["local_departure"])
         self.origin_city: str = data["route"][0]["cityFrom"]
